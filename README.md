@@ -6,3 +6,7 @@ Chapter 4 student exercise: `ACCT3343_Chapter4_Altman_Z_Distress.ipynb`.
 Chapter 5 working notebook: [Franchise Analysis](ACCT3343_Chapter5_Franchise_Analysis.ipynb).
 Run it in [Google Colab](https://colab.research.google.com/github/x2003xuy/acct3343-public/blob/main/ACCT3343_Chapter5_Franchise_Analysis.ipynb).
 It reuses the public 50-company dataset and retains four annual observations for CFOA, gross-margin growth, and stability.
+
+Chapter 6 working notebook: [Piotroski F-Score](ACCT3343_Chapter6_Piotroski_F_Score.ipynb).
+Run it in [Google Colab](https://colab.research.google.com/github/x2003xuy/acct3343-public/blob/main/ACCT3343_Chapter6_Piotroski_F_Score.ipynb).
+It reuses the public financial dataset, explains all nine classroom signals, and keeps incomplete scores visibly unavailable. The notebook records classroom corrections and the differences between the classroom net-issuance measure and Piotroski's original research definition.

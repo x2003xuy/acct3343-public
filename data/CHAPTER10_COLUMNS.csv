@@ -1,0 +1,80 @@
+column,definition,missing_value
+ticker,Original Yahoo US-listing ticker; company identifier.,blank; never automatically zero
+fiscal_period_end,"Actual annual statement end date supplied by original dataset, YYYY-MM-DD.",blank; never automatically zero
+fiscal_year,Original fiscal-year label; not used alone to match returns.,blank; never automatically zero
+company_name,Company name from the original course snapshot.,blank; never automatically zero
+sector,Sector from the original current classification; not point-in-time.,blank; never automatically zero
+industry,Industry from the original current classification; not point-in-time.,blank; never automatically zero
+exchange,Yahoo exchange code from the original snapshot.,blank; never automatically zero
+currency,Original listing/statement currency code; USD in this universe.,blank; never automatically zero
+total_revenue,"Original annual financial-statement amount: total revenue, USD; source signs/missing values preserved.",blank; never automatically zero
+cost_of_revenue,"Original annual financial-statement amount: cost of revenue, USD; source signs/missing values preserved.",blank; never automatically zero
+gross_profit,"Original annual gross profit, USD; GPA numerator.",blank; never automatically zero
+ebit,"Original annual earnings before interest and taxes, USD.",blank; never automatically zero
+operating_income,"Original annual financial-statement amount: operating income, USD; source signs/missing values preserved.",blank; never automatically zero
+ebitda,"Original annual earnings before interest, taxes, depreciation and amortization, USD.",blank; never automatically zero
+normalized_income,"Original annual financial-statement amount: normalized income, USD; source signs/missing values preserved.",blank; never automatically zero
+pretax_income,"Original annual financial-statement amount: pretax income, USD; source signs/missing values preserved.",blank; never automatically zero
+tax_provision,"Original annual financial-statement amount: tax provision, USD; source signs/missing values preserved.",blank; never automatically zero
+tax_rate_for_calcs,Original Yahoo tax-rate decimal estimate for that fiscal observation.,blank; never automatically zero
+net_income,"Original annual net income, USD; STA numerator input.",blank; never automatically zero
+net_income_continuing_operations,"Original annual financial-statement amount: net income continuing operations, USD; source signs/missing values preserved.",blank; never automatically zero
+selling_general_and_administration,"Original annual financial-statement amount: selling general and administration, USD; source signs/missing values preserved.",blank; never automatically zero
+interest_expense,"Original annual financial-statement amount: interest expense, USD; source signs/missing values preserved.",blank; never automatically zero
+basic_average_shares,"Original annual weighted-average basic shares, share count.",blank; never automatically zero
+diluted_average_shares,"Original annual weighted-average diluted shares, share count.",blank; never automatically zero
+basic_eps,"Original annual basic earnings per share, USD per share.",blank; never automatically zero
+diluted_eps,"Original annual diluted earnings per share, USD per share.",blank; never automatically zero
+total_assets,"Original fiscal year-end total assets, USD; same-period GPA/STA denominator.",blank; never automatically zero
+cash_and_cash_equivalents,"Original fiscal year-end balance: cash and cash equivalents, USD; source signs/missing values preserved.",blank; never automatically zero
+cash_and_short_term_investments,"Original fiscal year-end balance: cash and short term investments, USD; source signs/missing values preserved.",blank; never automatically zero
+accounts_receivable,"Original fiscal year-end balance: accounts receivable, USD; source signs/missing values preserved.",blank; never automatically zero
+inventory,"Original fiscal year-end balance: inventory, USD; source signs/missing values preserved.",blank; never automatically zero
+net_property_plant_equipment,"Original fiscal year-end balance: net property plant equipment, USD; source signs/missing values preserved.",blank; never automatically zero
+taxes_payable,"Original fiscal year-end balance: taxes payable, USD; source signs/missing values preserved.",blank; never automatically zero
+total_liabilities,"Original fiscal year-end balance: total liabilities, USD; source signs/missing values preserved.",blank; never automatically zero
+total_liabilities_net_minority_interest,"Original fiscal year-end balance: total liabilities net minority interest, USD; source signs/missing values preserved.",blank; never automatically zero
+total_non_current_liabilities,"Original fiscal year-end balance: total non current liabilities, USD; source signs/missing values preserved.",blank; never automatically zero
+long_term_debt,"Original fiscal year-end balance: long term debt, USD; source signs/missing values preserved.",blank; never automatically zero
+long_term_debt_and_capital_lease_obligation,"Original fiscal year-end balance: long term debt and capital lease obligation, USD; source signs/missing values preserved.",blank; never automatically zero
+total_debt,"Original fiscal year-end balance: total debt, USD; source signs/missing values preserved.",blank; never automatically zero
+preferred_stock,"Original fiscal year-end balance: preferred stock, USD; source signs/missing values preserved.",blank; never automatically zero
+minority_interest,"Original fiscal year-end balance: minority interest, USD; source signs/missing values preserved.",blank; never automatically zero
+stockholders_equity,"Original fiscal year-end balance: stockholders equity, USD; source signs/missing values preserved.",blank; never automatically zero
+common_stock_equity,"Original fiscal year-end balance: common stock equity, USD; source signs/missing values preserved.",blank; never automatically zero
+retained_earnings,"Original fiscal year-end balance: retained earnings, USD; source signs/missing values preserved.",blank; never automatically zero
+working_capital,"Original fiscal year-end balance: working capital, USD; source signs/missing values preserved.",blank; never automatically zero
+ordinary_shares_number,Original fiscal-period ordinary share count; provider date/class conventions apply.,blank; never automatically zero
+operating_cash_flow,"Original annual cash flow from operations, USD; STA numerator input.",blank; never automatically zero
+capital_expenditure,"Original annual financial-statement amount: capital expenditure, USD; source signs/missing values preserved.",blank; never automatically zero
+free_cash_flow,"Original annual financial-statement amount: free cash flow, USD; source signs/missing values preserved.",blank; never automatically zero
+depreciation_and_amortization,"Original annual financial-statement amount: depreciation and amortization, USD; source signs/missing values preserved.",blank; never automatically zero
+change_in_working_capital,"Original annual financial-statement amount: change in working capital, USD; source signs/missing values preserved.",blank; never automatically zero
+issuance_of_capital_stock,"Original annual financial-statement amount: issuance of capital stock, USD; source signs/missing values preserved.",blank; never automatically zero
+repurchase_of_capital_stock,"Original annual financial-statement amount: repurchase of capital stock, USD; source signs/missing values preserved.",blank; never automatically zero
+net_common_stock_issuance,"Original annual financial-statement amount: net common stock issuance, USD; source signs/missing values preserved.",blank; never automatically zero
+stock_based_compensation,"Original annual financial-statement amount: stock based compensation, USD; source signs/missing values preserved.",blank; never automatically zero
+cash_dividends_paid,"Original annual financial-statement amount: cash dividends paid, USD; source signs/missing values preserved.",blank; never automatically zero
+issuance_of_debt,"Original annual financial-statement amount: issuance of debt, USD; source signs/missing values preserved.",blank; never automatically zero
+repayment_of_debt,"Original annual financial-statement amount: repayment of debt, USD; source signs/missing values preserved.",blank; never automatically zero
+fiscal_price_date,Original fiscal-date price observation date; not the portfolio entry date.,blank; never automatically zero
+fiscal_period_end_close,"Original historical fiscal-date close, USD; not used for forward returns.",blank; never automatically zero
+fiscal_period_end_adjusted_close,Original fiscal-date adjusted price from an earlier snapshot; do not mix its levels with new adjusted prices.,blank; never automatically zero
+information_available_date,"Fiscal period end plus six calendar months, assumed available at end of day.",blank; never automatically zero
+formation_year,Calendar year of July portfolio formation.,blank; never automatically zero
+formation_date,"July 1 at midnight, before the entry closing price.",blank; never automatically zero
+entry_date,Common first trading date on or after July 1; entry at close.,blank; never automatically zero
+exit_date,Common last trading date on or before following June 30; exit at close.,blank; never automatically zero
+entry_adjusted_close,"Yahoo dividend- and split-adjusted closing price at entry, USD.",blank; never automatically zero
+exit_adjusted_close,"Yahoo dividend- and split-adjusted closing price at exit, USD.",blank; never automatically zero
+stock_return,"Adjusted exit divided by adjusted entry minus one; decimal, subsequent holding period.",blank; never automatically zero
+return_available,True if both endpoint adjusted prices are present and positive.,blank; never automatically zero
+accounting_available,True if a statement satisfies the six-calendar-month reporting lag.,blank; never automatically zero
+accounting_age_days,"Formation date minus selected fiscal period end, in days.",blank; never automatically zero
+stale_accounting_flag,True when selected statement age exceeds 548 days; review flag only.,blank; never automatically zero
+gpa_inputs_valid,True if gross profit is finite and total assets are finite and positive.,blank; never automatically zero
+sta_inputs_valid,True if net income and operating cash flow are finite and total assets are finite and positive.,blank; never automatically zero
+eligible_gpa,GPA input validity and subsequent endpoint return coverage; not selection.,blank; never automatically zero
+eligible_sta,STA input validity and subsequent endpoint return coverage; not selection.,blank; never automatically zero
+eligible_combined,Both GPA and STA eligibility flags true; not selection.,blank; never automatically zero
+missing_data_reason,Semicolon-separated missing/invalid-input reasons; blank if none.,blank; never automatically zero
